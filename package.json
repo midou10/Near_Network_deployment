@@ -1,0 +1,22 @@
+{
+  "name": "near-network-monitor",
+  "version": "1.0.0",
+  "description": "monitor near network validators",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-mocha -p tsconfig.json src/**/*.test.ts --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abellinii/near-network-monitor.git"
+  },
+  "author": "Wade Abel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abellinii/near-network-monitor/issues"
+  },
+  "homepage": "https://github.com/abellinii/near-network-monitor#readme",
+  "dependencies": {
+    "near-api-js": "^0.30.0"
+  }
+}
